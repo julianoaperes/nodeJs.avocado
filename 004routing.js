@@ -15,7 +15,7 @@ const server = http.createServer((req,res) => {
             'Content-type': 'text/html',
             'my-own-header': 'hello-word'
         }); //writeHead is a method used in the http module to send a response header to the client. This method is commonly used when working with HTTP servers.
-        res.end('Page not found!');  
+        res.end('<h1>Page not found!</h1>');  
     }
 });
 
