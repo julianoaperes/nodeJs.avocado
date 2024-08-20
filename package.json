@@ -1,17 +1,17 @@
 {
   "name": "nodejs.avocado",
   "version": "1.0.0",
-  "description": "Learning node.js",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
   "author": "Juliano Peres",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
   "dependencies": {
     "slugify": "^1.6.6"
-  },
-  "devDependencies": {
-    "prettier": "3.3.3"
   }
 }
